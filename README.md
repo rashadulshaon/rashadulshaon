@@ -1,4 +1,4 @@
-### 👋 Hi there, I'm <a target="_blank" href="https://shaon.engineer">Rashadul Islam Shaon</a>
+### Hi there, I'm <a target="_blank" href="https://shaon.engineer">Rashadul Islam Shaon</a>
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1000&random=false&width=435&lines=Full-Stack+Developer;Expert+in+Process+Automation;Expert+in+SaaS+Development)](https://git.io/typing-svg)
 ### <samp><a href="https://shaon.engineer">「 Hire Me 」</a></samp> <samp><a href="https://shaon.engineer">「 View Portfolio 」</a></samp>
 
