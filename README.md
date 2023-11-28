@@ -1,6 +1,6 @@
 ### Hi, I'm <a target="_blank" href="https://shaon.engineer">Rashadul Islam Shaon</a>
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&random=false&width=435&lines=Full-Stack+Developer;Expert+in+Process+Automation;Expert+in+SaaS+Development)](https://shaon.engineer)<br/>
-**<samp><a href="https://shaon.engineer">「 Hire Me 」</a></samp> <samp><a href="https://shaon.engineer">「 View Portfolio 」</a></samp>**<br/>
+**<samp><a href="mailto:codershaon@gmail.com">「 Hire Me 」</a></samp> <samp><a href="https://rashadulshaon.github.io/portfolio">「 View Portfolio 」</a></samp>**<br/>
 
 ### 🎯 Core Competencies:
 * Building PHP / Python-based backend.
