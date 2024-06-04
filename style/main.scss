@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$primary: #0070f3;
+$secondary: #f8f8f8;
+$min-contrast-ratio: 2;
+$border-radius: 1rem;
+$border-radius-sm: .1rem;
+$border-radius-lg: 2rem;
+$font-family-base: 'Barlow', sans-serif;
+$input-btn-padding-x: 1.7rem;
+$input-btn-padding-y: .4rem;
+$input-btn-padding-x-sm: 1rem;
+$input-btn-padding-y-sm: .3rem;
+$input-btn-padding-x-lg: 1.5rem;
+$input-btn-padding-y-lg: .650rem;
+$input-bg: $secondary;
+$card-border-color: #ececec;
+$input-focus-box-shadow: 0;
+$input-font-weight: bold;
+$btn-hover-border-shade-amount: 0;
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1200px
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../remixicon/remixicon.css";
+
+body {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.06'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(120deg, #aaa, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.theme-border {
+    border: 1px solid #eee;
+}
+
+.nav-menu {
+    .active {
+        border-bottom: 2px solid $primary !important;
+    }
+}
+
+.main-header {
+    background-color: #ffffffbd;
+    backdrop-filter: blur(20px);
+}
+
+.career-timeline {
+    border-top: 1px dashed #ccc;
+}
+
+.career-timeline-content {
+    margin-top: -18px;
+}
+
+.career-highlight {
+    border-radius: 10px;
+}
+
+.area-heading {
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+
+.tech-item-divider {
+    color: #ccc;
+}
+
+.carousel-indicators [data-bs-target] {
+    text-indent: 0;
+    padding: 7px 5px;
+}
+
+.carousel-indicators [data-bs-target].active {
+    background-color: $secondary;
+}
+
+.social-icon {
+    padding: 10px 8px 9px 9px;
+}
+
+.project {
+    color: #000;
+    transition: border 0.25s ease, color 0.25s ease;
+
+    &:hover {
+        color: $primary;
+        border-color: $primary;
+    }
+}
+
+
+.scroll-downs {
+    right: 0;
+    left: 0;
+    width: 34px;
+    height: 55px;
+}
+
+.mousey {
+    width: 3px;
+    padding: 5px 10px;
+    height: 25px;
+    border: 2px solid $primary;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+}
+
+.scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: $primary;
+    animation-name: scroll;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+}
