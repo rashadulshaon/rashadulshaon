@@ -1,6 +1,49 @@
-$primary: #3fb984;
-$secondary: #31475e;
-$font-family-sans-serif: 'Inter', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+$primary: #0070f3;
+$secondary: #f6f6f6;
+$min-contrast-ratio: 2;
+$border-radius: .3rem;
+$border-radius-sm: .1rem;
+$border-radius-lg: .5rem;
+$font-family-base: 'Figtree', sans-serif;
+$input-btn-padding-x: 1.7rem;
+$input-btn-padding-y: .4rem;
+$input-btn-padding-x-sm: 1rem;
+$input-btn-padding-y-sm: .3rem;
+$input-btn-padding-x-lg: 1.5rem;
+$input-btn-padding-y-lg: .650rem;
+$input-bg: $secondary;
+$card-border-color: #ececec;
+$input-focus-box-shadow: 0;
+$input-font-weight: bold;
+$btn-hover-border-shade-amount: 0;
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1210px
+);
 
 @import 'bootstrap/scss/bootstrap';
 @import 'remixicon/fonts/remixicon.css';
+
+@font-face {
+    src: url('fonts/Helvetica.ttf');
+    font-family: Helvetica;
+}
+
+.theme-border {
+    border: 1px solid #eee;
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(120deg, #aaa, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.separator {
+    color: #ccc;
+}
