@@ -1,16 +1,18 @@
 <template>
   <section id="about" class="container my-5 py-5">
-    <h5 class="display fs-4 col-md-6 mx-auto text-center mb-3">I love to take
-      challenges and solve
-      complex problems with the power of programming.
-    </h5>
-    <p class="col-lg-7 text-center mx-auto mb-5">Over the last 5 years in the industry, I have been working
-      as
-      a software
-      architect.
-      When I
-      build an application, I
-      always like to make it resource efficient, secure and scalable as well.</p>
+    <div class="col-lg-7 mx-auto text-center mb-4">
+      <h3 class="display mb-3">I love to take
+        challenges and solve
+        complex problems with the power of programming.
+      </h3>
+      <p class="mb-5">Over the last 5 years in the industry, I have been working
+        as
+        a software
+        architect.
+        When I
+        build an application, I
+        always like to make it resource efficient, secure and scalable as well.</p>
+    </div>
 
     <!-- Carousel -->
     <div id="carousel" class="carousel slide mb-5" data-bs-ride="carousel">

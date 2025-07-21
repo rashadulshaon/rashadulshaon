@@ -1,7 +1,7 @@
 <template>
   <section id="contact" class="container my-5 py-5">
     <div class="col-lg-7 mx-auto text-center mb-4">
-      <h3 class="mb-3 display">Let’s craft
+      <h3 class="display mb-3">Let’s craft
         brilliance
         together!</h3>
       <p class="mb-4">I am always open to discussing new projects, creative ideas, or opportunities to
