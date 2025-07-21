@@ -1,6 +1,6 @@
 <template>
   <section id="about" class="container my-5 py-5">
-    <div class="col-lg-7 mx-auto text-center mb-4">
+    <div class="col-lg-10 col-xl-7 mx-auto text-center mb-4">
       <h3 class="display mb-3">I love to take
         challenges and solve
         complex problems with the power of programming.

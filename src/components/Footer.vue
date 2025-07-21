@@ -1,6 +1,6 @@
 <template>
-  <section id="contact" class="container my-5 py-5">
-    <div class="col-lg-7 mx-auto text-center mb-4">
+  <section id="contact" class="container mt-5 py-5">
+    <div class="col-lg-10 col-xl-7 mx-auto text-center mb-4">
       <h3 class="display mb-3">Let’s craft
         brilliance
         together!</h3>
@@ -10,13 +10,13 @@
         free to reach out.</p>
       <div class="d-md-inline mb-3 me-4">
         <a class="text-decoration-none text-dark" href="mailto:codershaon@gmail.com">
-          <i class="ri-mail-line me-2 rounded-circle border p-2"></i>
+          <i class="ri-mail-line me-2 rounded-circle border border-primary p-2"></i>
           <span>codershaon@gmail.com</span>
         </a>
       </div>
       <div class="d-md-inline mb-4">
         <a class="text-decoration-none text-dark" href="tel:+8801708777376">
-          <i class="ri-phone-line me-2 rounded-circle border p-2"></i>
+          <i class="ri-phone-line me-2 rounded-circle border border-primary p-2"></i>
           <span>+880 1708 777 376</span>
         </a>
       </div>

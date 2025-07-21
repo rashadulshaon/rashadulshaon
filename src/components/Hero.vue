@@ -1,8 +1,8 @@
 <template>
-  <section class="rounded-4 bg-secondary theme-border mx-4">
+  <section class="rounded-4 bg-secondary theme-border px-3 px-xl-0 mx-2 mx-lg-4">
     <section class="container">
       <div class="hero row align-items-center">
-        <div class="col-md-6">
+        <div class="col-lg-7 col-xl-6 py-5 py-xl-0">
           <h4 class="fw-normal text-muted">Hi, this is <span class="text-primary">Rashadul Shaon</span> 👋</h4>
           <p class="display-6">Expert in Process Automation <br> & SaaS Development</p>
           <p class="text-muted mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita aperiam odit
@@ -55,9 +55,10 @@
             </a>
           </div>
         </div>
-        <div class="col-1"></div>
-        <div class="col-md-5">
-          <img src="@/assets/images/hero_img.jpg" alt="Rashadul Shaon" class="img-fluid rounded-3 p-2 border">
+        <div class="col-xl-1 d-none d-xl-block"></div>
+        <div class="col-lg-5 d-flex">
+          <img src="@/assets/images/hero_img.jpg" alt="Rashadul Shaon" height="100%"
+            class="img-fluid rounded-3 p-2 border">
         </div>
       </div>
       <div class="mx-auto scroll-downs mb-4">
@@ -72,7 +73,8 @@
 
 <style lang="scss" scoped>
 .hero {
-  height: 80vh;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .social-icon {
