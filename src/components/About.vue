@@ -1,6 +1,6 @@
 <template>
   <section id="about" class="container my-5 py-5">
-    <h5 class="fs-4 col-md-6 mx-auto text-center mb-3">I love to take
+    <h5 class="display fs-4 col-md-6 mx-auto text-center mb-3">I love to take
       challenges and solve
       complex problems with the power of programming.
     </h5>

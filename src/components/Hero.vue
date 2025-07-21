@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-4 rounded-4 bg-secondary theme-border">
+  <section class="rounded-4 bg-secondary theme-border mx-4">
     <section class="container">
       <div class="hero row align-items-center">
         <div class="col-md-6">
@@ -28,7 +28,7 @@
           </div>
 
           <a href="#contact" class="btn btn-dark rounded me-2">Hire Me<i class="ri-arrow-right-line ms-2"></i></a>
-          <a href="#projects" class="btn border rounded bg-white"><i class="ri-article-line me-2"></i>My
+          <a href="#projects" class="btn rounded bg-white"><i class="ri-article-line me-2"></i>My
             Projects</a>
 
           <!-- Social Icons -->

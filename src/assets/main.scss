@@ -38,10 +38,9 @@ $container-max-widths: (
     border: 1px solid #eee;
 }
 
-.gradient-text {
-    background: -webkit-linear-gradient(120deg, #aaa, #000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.display {
+    font-weight: 400;
+    line-height: 1.2;
 }
 
 .separator {
