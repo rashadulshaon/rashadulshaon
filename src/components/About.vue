@@ -144,9 +144,12 @@
 
     <!-- Github Profile -->
     <div class="text-center py-3">
-      <a target="_blank" href="https://github.com/rashadulshaon" class="btn btn-dark rounded mt-3"><i
-          class="ri-github-line me-2"></i>Github
-        Profile<i class="ri-arrow-right-up-line ms-2"></i></a>
+      <a target="_blank" href="https://github.com/rashadulshaon" class="mt-3">
+        <button class="theme-btn btn3 border">
+          <i class="ri-github-line me-2"></i>Github
+          Profile<i class="ri-arrow-right-up-line ms-2"></i>
+        </button>
+      </a>
     </div>
   </section>
 </template>

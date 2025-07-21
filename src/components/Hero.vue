@@ -26,9 +26,10 @@
             </div>
           </div>
 
-          <a href="#contact" class="btn btn-dark rounded me-2">Hire Me<i class="ri-arrow-right-line ms-2"></i></a>
-          <a href="#projects" class="btn rounded bg-white"><i class="ri-article-line me-2"></i>My
-            Projects</a>
+          <a href="#contact" class="me-2"><button class="theme-btn btn3">Hire Me<i
+                class="ri-arrow-right-line ms-2"></i></button></a>
+          <a href="#projects"><button class="theme-btn btn2"><i class="ri-article-line me-2"></i>My
+              Projects</button></a>
 
           <!-- Social Icons -->
           <div class="mt-5">

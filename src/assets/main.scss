@@ -28,10 +28,12 @@ $container-max-widths: (
 
 @import 'bootstrap/scss/bootstrap';
 @import 'remixicon/fonts/remixicon.css';
+@import 'button';
 
-@font-face {
-    src: url('fonts/Helvetica.ttf');
-    font-family: Helvetica;
+body {
+    background-color: #ffffff;
+    background-image:  linear-gradient(#f8fcfd 2.2px, transparent 2.2px), linear-gradient(to right, #f8fcfd 2.2px, #ffffff 2.2px);
+    background-size: 44px 44px;
 }
 
 .theme-border {
