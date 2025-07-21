@@ -1,51 +1,36 @@
 <template>
-  <header class="navbar navbar-expand-lg bg-body-tertiary border-bottom sticky-top">
+  <header id="main-nav" class="navbar navbar-expand-lg sticky-top main-header">
     <div class="container">
-      <a class="navbar-brand text-uppercase" href="#"><span class="text-primary fw-bold">Vue App</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <RouterLink class="nav-link px-3" :class="{ active: $route.name === 'home' }" to="/">Home
-            </RouterLink>
-          </li>
-          <li class="nav-item">
-            <RouterLink class="nav-link px-3" :class="{ active: $route.name === 'about' }" to="/about">About
-            </RouterLink>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              User
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Logout</a></li>
-            </ul>
-          </li>
-        </ul>
+      <div class="row w-100">
+        <div class="col-md-6 col-lg-4 d-none d-md-block">
+          <a href="mailto:codershaon@gmail.com" class="btn border-0 ps-0"><i
+              class="ri-mail-line me-2 rounded-circle p-2 border bg-white"></i>contact@rashadul.com</a>
+        </div>
+        <div class="col-lg-4 d-none d-lg-block text-center">
+          <div class="nav-menu">
+            <a href="#home" class="btn btn-sm active border-0 px-0 mx-2">Home</a>
+            <a href="#projects" class="btn btn-sm border-0 px-0 mx-2">Projects</a>
+            <a href="#career" class="btn btn-sm border-0 px-0 mx-2">Career</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 text-center text-md-end">
+          <a download href="/Rashadul_Shaon_CV.pdf" class="btn border-0 pe-0"><i
+              class="ri-download-2-line me-2 rounded-circle p-2 border bg-white"></i>Download CV</a>
+        </div>
       </div>
     </div>
   </header>
 </template>
 
 <style scoped lang="scss">
-.nav-item {
-  .nav-link {
-    text-transform: uppercase;
-    padding-left: 2rem;
-    padding-right: 2rem;
+.navbar {
+  background-color: #ffffffbd;
+  backdrop-filter: blur(20px);
+}
 
-    &.active {
-      color: #3fb984;
-    }
+.nav-menu {
+  .active {
+    border-bottom: 2px solid #0070f3 !important;
   }
 }
 </style>
