@@ -5,9 +5,8 @@
         <div class="col-lg-7 col-xl-6 py-5 py-xl-0">
           <h4 class="fw-normal text-muted">Hi, this is <span class="text-primary">Rashadul Shaon</span> 👋</h4>
           <p class="display-6">Expert in Process Automation <br> & SaaS Development</p>
-          <p class="text-muted mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita aperiam odit
-            nemo,
-            aspernatur ab harum ipsa recusandae officiis.</p>
+          <p class="text-muted mb-4">I architect systems that feel seamless, human, and just a bit magical. Every
+            function, every query, every line of code is written with purpose.</p>
 
           <!-- Stats -->
           <div class="row col-lg-10 mb-5">
