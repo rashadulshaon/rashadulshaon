@@ -69,7 +69,7 @@
       <!-- Tech Stack -->
       <div class="col-lg-6 pe-lg-5 text-center text-lg-end">
         <div class="mb-5">
-          <h5 class="fs-6 text-primary mb-4">Server-Side</h5>
+          <h5 class="fs-6 mb-4">Server-Side</h5>
           <span class="d-inline-block mb-2">PHP</span><span class="fw-bold px-3 separator">/</span>
           <span class="d-inline-block mb-2">Symfony</span><span class="fw-bold px-3 separator">/</span>
           <span class="d-inline-block mb-2">Doctrine ORM</span><span class="fw-bold px-3 separator">/</span>
@@ -93,7 +93,7 @@
         </div>
 
         <div class="mb-5">
-          <h5 class="fs-6 text-primary mb-4">Front-End</h5>
+          <h5 class="fs-6 mb-4">Front-End</h5>
           <span class="d-inline-block mb-2">HTML</span><span class="fw-bold px-3 separator">/</span>
           <span class="d-inline-block mb-2">CSS</span><span class="fw-bold px-3 separator">/</span>
           <span class="d-inline-block mb-2">Sass</span><span class="fw-bold px-3 separator">/</span>
@@ -112,7 +112,7 @@
 
       <!-- Core Competencies -->
       <div class="col-lg-6 ps-lg-5">
-        <h5 class="fs-6 text-primary text-center text-lg-start mb-4">Core Competencies
+        <h5 class="fs-6 text-center text-lg-start mb-4">Core Competencies
         </h5>
         <ul class="list-unstyled">
           <li class="mb-2"><i class="ri-check-fill text-primary fs-4 me-3"></i>Building PHP /

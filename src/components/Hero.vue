@@ -1,6 +1,6 @@
 <template>
-  <section class="rounded-4 bg-secondary theme-border px-3 px-xl-0 mx-2 mx-lg-4">
-    <section class="container">
+  <section class="rounded-3 bg-secondary theme-border px-3 px-xl-0 mx-2 mx-lg-4">
+    <section id="home" class="container">
       <div class="hero row align-items-center">
         <div class="col-lg-7 col-xl-6 py-5 py-xl-0">
           <h4 class="fw-normal text-muted">Hi, this is <span class="text-primary">Rashadul Shaon</span> 👋</h4>
