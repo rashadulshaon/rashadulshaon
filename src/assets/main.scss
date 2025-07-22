@@ -30,10 +30,27 @@ $container-max-widths: (
 @import 'remixicon/fonts/remixicon.css';
 @import 'button';
 
+/* Scroll bar */
+::-webkit-scrollbar {
+	height: 7px;
+	width: 7px;
+}
+::-webkit-scrollbar-track {
+	background: #ddd;
+}
+::-webkit-scrollbar-thumb {
+	background: #bbb;
+	border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: $primary;
+}
+
 body {
     background-color: #ffffff;
     background-image:  linear-gradient(#f8fcfd 2.2px, transparent 2.2px), linear-gradient(to right, #f8fcfd 2.2px, #ffffff 2.2px);
     background-size: 44px 44px;
+    background-attachment: fixed;
 }
 
 .theme-border {
