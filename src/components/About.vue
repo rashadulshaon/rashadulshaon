@@ -122,7 +122,7 @@
             based
             complex database relationship schema</li>
           <li class="d-flex align-items-center mb-2"><i class="ri-check-fill text-primary fs-4 me-3"></i>Developing
-            high-performant REST / GraphQL / gRPC based APIs</li>
+            high-performant REST / GraphQL / Socket APIs</li>
           <li class="d-flex align-items-center mb-2"><i class="ri-check-fill text-primary fs-4 me-3"></i>Familiarity
             with
             software architecture patterns (MVC, DDD, TDD, CQRS)</li>
@@ -145,7 +145,7 @@
     <!-- Github Profile -->
     <div class="text-center py-3">
       <a target="_blank" href="https://github.com/rashadulshaon" class="mt-3">
-        <button class="theme-btn btn3 border">
+        <button class="theme-btn btn3">
           <i class="ri-github-line me-2"></i>Github
           Profile<i class="ri-arrow-right-up-line ms-2"></i>
         </button>

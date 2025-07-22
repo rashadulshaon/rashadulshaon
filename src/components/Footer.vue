@@ -11,7 +11,7 @@
       <div class="d-md-inline mb-3 me-4">
         <a class="text-decoration-none text-dark" href="mailto:codershaon@gmail.com">
           <i class="ri-mail-line me-2 rounded-circle border border-primary p-2"></i>
-          <span>codershaon@gmail.com</span>
+          <span>contact@rashadul.com</span>
         </a>
       </div>
       <div class="d-md-inline mb-4">
