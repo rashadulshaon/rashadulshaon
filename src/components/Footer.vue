@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="container mt-5 py-5">
+  <section id="contact" class="container py-5">
     <div class="col-lg-10 col-xl-7 mx-auto text-center mb-4">
       <h3 class="display mb-3">Let’s craft
         brilliance

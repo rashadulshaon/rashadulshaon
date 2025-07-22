@@ -1,5 +1,5 @@
 <template>
-  <section class="rounded-3 bg-secondary theme-border px-3 px-xl-0 mx-2 mx-lg-4">
+  <section class="rounded-3 bg-secondary theme-border px-3 px-xl-0 mx-2 mx-lg-4 mb-5">
     <section id="home" class="container">
       <div class="hero row align-items-center">
         <div class="col-lg-7 col-xl-6 py-5 py-xl-0">
