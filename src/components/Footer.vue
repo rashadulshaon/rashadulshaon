@@ -4,7 +4,7 @@
       <h3 class="display mb-3">Let’s craft
         brilliance
         together!</h3>
-      <p class="mb-4">I am always open to discussing new projects, creative ideas, or opportunities to
+      <p class="mb-5">I am always open to discussing new projects, creative ideas, or opportunities to
         be part
         of your visions. For business related queries, feel
         free to reach out.</p>

@@ -1,8 +1,8 @@
 <template>
   <section id="career" class="container py-5">
     <div class="col-lg-10 col-xl-7 mx-auto text-center mb-4">
-      <h3 class="display mb-3">Career Highlights</h3>
-      <p class="mb-4">I have been working as a
+      <h3 class="display mb-3">Career highlights</h3>
+      <p class="mb-5">I have been working as a
         software engineer and architect for several years, and I have gained a lot of experience in building
         applications that are easy to maintain and extend.</p>
     </div>
