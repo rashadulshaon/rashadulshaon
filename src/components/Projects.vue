@@ -7,7 +7,7 @@
       </p>
     </div>
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="card project-card">
           <img src="@/assets/images/onceinsurance.png" class="card-img-top p-4" alt="...">
           <div class="card-body p-4 pt-0">
@@ -23,7 +23,7 @@
         </div>
       </div>
 
-      <div class="col-lg-6">
+      <div class="col-lg-6 mb-lg-0">
         <div class="card project-card">
           <img src="@/assets/images/readylms.png" class="card-img-top p-4" alt="...">
           <div class="card-body p-4 pt-0">
