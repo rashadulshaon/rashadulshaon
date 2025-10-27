@@ -15,9 +15,10 @@
             <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the
               card's
               content. Some quick example text to build on the card title and make up the bulk of the card's content</p>
-            <a href="http://onceinsurance.com/instant-quote" target="_blank"><button class="theme-btn btn3 small py-2 px-3 me-2"><i class="ri-arrow-right-up-line me-2"></i>View
+            <a href="http://onceinsurance.com/instant-quote" target="_blank"><button class="theme-btn btn3 me-2"><i
+                  class="ri-arrow-right-up-line me-2"></i>View
                 Project</button></a>
-            <a href="#"><button class="theme-btn btn2 small py-2 px-3"><i class="ri-article-line me-2"></i>Case
+            <a href="#"><button class="theme-btn btn2"><i class="ri-article-line me-2"></i>Case
                 Study</button></a>
           </div>
         </div>
@@ -31,9 +32,10 @@
             <p class="card-text small">Some quick example text to build on the card title and make up the bulk of the
               card's
               content. Some quick example text to build on the card title and make up the bulk of the card's content</p>
-            <a href="http://demo.readylms.app" target="_blank"><button class="theme-btn btn3 small py-2 px-3 me-2"><i class="ri-arrow-right-up-line me-2"></i>View
+            <a href="http://demo.readylms.app" target="_blank"><button class="theme-btn btn3 me-2"><i
+                  class="ri-arrow-right-up-line me-2"></i>View
                 Project</button></a>
-            <a href="#"><button class="theme-btn btn2 small py-2 px-3"><i class="ri-article-line me-2"></i>Case
+            <a href="#"><button class="theme-btn btn2"><i class="ri-article-line me-2"></i>Case
                 Study</button></a>
           </div>
         </div>
@@ -49,6 +51,7 @@
     transition: all 150ms ease;
     border-color: #1883fd;
   }
+
   .card-img-top {
     height: 280px;
     object-fit: cover;
