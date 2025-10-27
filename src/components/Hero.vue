@@ -1,10 +1,10 @@
 <template>
-  <section class="rounded-3 bg-secondary theme-border px-3 px-xl-0 mx-2 mx-lg-4 mb-5">
+  <section class="rounded-3 bg-secondary theme-border px-3 px-xl-0 mx-2 mx-lg-5 mb-5">
     <section id="home" class="container">
       <div class="hero row align-items-center">
         <div class="col-lg-7 col-xl-6 py-5 py-xl-0">
-          <h4 class="fw-normal text-muted">Hi, this is <span class="text-primary">Rashadul Shaon</span> 👋</h4>
-          <p class="display-6">Expert in Process Automation <br> & SaaS Development</p>
+          <h4 class="fw-normal text-muted">Hi, this is Rashadul <span class="text-primary">Shaon</span> 👋</h4>
+          <p class="display-6">Expert in Process Automation <br> & SaaS Development —</p>
           <p class="text-muted mb-4">I architect systems that feel seamless, human, and just a bit magical. Every
             function, every query, every line of code is written with purpose.</p>
 
@@ -57,7 +57,7 @@
         </div>
         <div class="col-xl-1 d-none d-xl-block"></div>
         <div class="col-lg-5 d-flex">
-          <img src="@/assets/images/hero_img.jpg" alt="Rashadul Shaon" height="100%"
+          <img src="@/assets/images/Rashadul_Shaon.png" alt="Rashadul Shaon" height="100%"
             class="img-fluid rounded-3 p-2 border">
         </div>
       </div>
@@ -73,8 +73,8 @@
 
 <style lang="scss" scoped>
 .hero {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .social-icon {
@@ -92,8 +92,8 @@
   width: 3px;
   padding: 5px 10px;
   height: 25px;
-  border: 2px solid #0070f3;
-  border-radius: 25px;
+  border: 2px solid #bebebe;
+  border-radius: 6px;
   opacity: 0.75;
   box-sizing: content-box;
 }
@@ -102,7 +102,7 @@
   width: 3px;
   height: 10px;
   border-radius: 25%;
-  background-color: #0070f3;
+  background-color: #000;
   animation-name: scroll;
   animation-duration: 1.5s;
   animation-timing-function: cubic-bezier(.15, .41, .69, .94);
